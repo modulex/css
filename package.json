@@ -1,0 +1,19 @@
+{
+  "name": "modulex-css",
+  "version": "1.0.0",
+  "author": "yiminghe <yiminghe@gmail.com>",
+  "engines": {
+    "node": "~0.11"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kissyteam/css.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-less": "^1.3.6",
+    "gulp-minify-css": "^0.3.10",
+    "gulp-rename": "^1.2.0"
+  }
+}
