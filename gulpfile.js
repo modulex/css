@@ -17,12 +17,12 @@ gulp.task('build', function () {
         .pipe(rename(function(path){
             path.basename += "-debug";
         }))
-        .pipe(gulp.dest('build/'))
+        .pipe(gulp.dest('build/css'))
         .pipe(rename(function(path){
             path.basename = path.basename.replace('-debug','');
         }))
         .pipe(minifyCSS({keepBreaks: true}))
-        .pipe(gulp.dest('build'));
+        .pipe(gulp.dest('build/css'));
 });
 
 gulp.task('default', ['build']);
