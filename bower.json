@@ -1,9 +1,4 @@
 {
   "name": "modulex-css",
-  "author": "yiminghe <yiminghe@gmail.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/kissyteam/css.git"
-  }
+  "author": "yiminghe <yiminghe@gmail.com>"
 }
